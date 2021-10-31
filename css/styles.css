@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.siteWrapper {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.homeWrapper {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/Night-city-background-with-many-building-Graphics-3832790-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.callout {
+  width: 100%;
+  height: 280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.callout h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: rgba(223, 223, 223, 0.945);
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+form .formWrapper {
+  margin: 0 auto;
+  padding-top: 75px;
+}
+form .formWrapper h1 {
+  margin-bottom: 60px;
+}
+form .formWrapper input {
+  display: block;
+  width: 250px;
+  height: 35px;
+  margin: 10px 0;
+}
+form button {
+  margin-top: 20px;
+  width: 250px;
+  height: 45px;
+}
+
+@media screen and (max-width: 960px) {
+  form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}

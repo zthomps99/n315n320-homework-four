@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.siteWrapper {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.homeWrapper {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/Night-city-background-with-many-building-Graphics-3832790-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.callout {
+  width: 100%;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+}
